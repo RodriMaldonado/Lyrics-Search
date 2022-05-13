@@ -99,5 +99,13 @@ body {
 @media screen and (max-width: 576px) {
     .main{
         display: inline !important;
+        background-color: black !important;
+    }
+    .search {
+        width: 2vw;
+    }
+
+    .submit {
+        width: auto;
     }
 }
