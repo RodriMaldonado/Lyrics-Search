@@ -48,11 +48,12 @@ body {
     background-color:#3D0E37;
     flex-grow: 1;
     padding:1rem ;
+    color: white;
     font-size: 1rem ;
     border-style:none;
 }
 .submit {
-    color: lightslategray;
+    color: white;
     background-color:#3D0E37;
     border-style:none;
 }
@@ -97,9 +98,11 @@ body {
 
 /* media queries */
 @media screen and (max-width: 576px) {
+    body {
+        background-color: black;
+    }
     .main{
         display: inline !important;
-        background-color: black !important;
     }
     .search {
         width: 2vw;
